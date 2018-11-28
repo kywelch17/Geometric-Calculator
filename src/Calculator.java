@@ -39,4 +39,39 @@ public class Calculator
 
         return a;
     }
+
+    /**
+     * @param r The radius of the Circle
+     * @return The area of the Circle
+     */
+    public double circle(double r) {
+        //Variable declaration
+        double pi = 3.14;
+        double a;
+
+        //Equate the area
+        a = pi * (r * r);
+
+        return a;
+    }
+
+    /**
+     * @param b,  The top base of the Trapezoid
+     * @param b2, The bottom base of the Trapezoid
+     * @param h,  the height of the Trapezoid
+     * @return The area of the Trapezoid
+     */
+    public double trapezoid(double b, double b2, double h) {
+        //Variable declaration
+        double a;
+        double x;
+        double y;
+
+        //Equate the area
+        x = (b + b2);
+        y = x / 2;
+        a = h * y;
+
+        return a;
+    }
 }

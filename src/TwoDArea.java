@@ -38,6 +38,9 @@ public class TwoDArea {
     }
 
     /**
+     * Finds the area of a 2D circle.
+     * Equation: π(r x r)
+     *
      * @param r The radius of the Circle
      * @return The area of the Circle
      */
@@ -53,6 +56,9 @@ public class TwoDArea {
     }
 
     /**
+     * Finds the area of a 2D trapezoid
+     * Equation: h((b+b1)/2)
+     *
      * @param b,  The top base of the Trapezoid
      * @param b2, The bottom base of the Trapezoid
      * @param h,  the height of the Trapezoid
@@ -72,4 +78,3 @@ public class TwoDArea {
         return a;
     }
 }
-
